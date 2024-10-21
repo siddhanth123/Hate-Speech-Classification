@@ -1,0 +1,66 @@
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.74      0.77      0.75       239
+           1       0.76      0.73      0.74       239
+
+    accuracy                           0.75       478
+   macro avg       0.75      0.75      0.75       478
+weighted avg       0.75      0.75      0.75       478
+
+
+Confusion Matrix:
+[[183  56]
+ [ 64 175]]
+
+Sample Predictions:
+Text: The white man has no future in Canada , that is for sure , because the country is being flooded with...
+True Label: hate
+Predicted Label: hate
+Prediction Probability: 0.8784
+---
+Text: I take the assumption that your Nation is so crap is not worth remembering ....
+True Label: noHate
+Predicted Label: noHate
+Prediction Probability: 0.4427
+---
+Text: If you want to hear what a black `` intellectual '' ( lol ) sounds like , check out the woman in thi...
+True Label: hate
+Predicted Label: noHate
+Prediction Probability: 0.0974
+---
+Text: I 've always considered teaching as one of the professions I would like to get into , but not in a n...
+True Label: hate
+Predicted Label: noHate
+Prediction Probability: 0.0641
+---
+Text: And the sad thing is the white students at those schools will act like that too ....
+True Label: hate
+Predicted Label: noHate
+Prediction Probability: 0.0109
+---
+Text: And my job lets me monitor all of Jewish supremacist control of talk radio ....
+True Label: noHate
+Predicted Label: hate
+Prediction Probability: 0.8802
+---
+Text: See the new thread @ https : //www.stormfront.org/forum/t989503/...
+True Label: noHate
+Predicted Label: noHate
+Prediction Probability: 0.0116
+---
+Text: I read a few things about him awhile back and he is far to the left as so many of them are ....
+True Label: noHate
+Predicted Label: noHate
+Prediction Probability: 0.0276
+---
+Text: This whole situation starts to become really bizarre ....
+True Label: noHate
+Predicted Label: noHate
+Prediction Probability: 0.1916
+---
+Text: They need the white male distracted as much as possible and of course the glorification of the groid...
+True Label: hate
+Predicted Label: noHate
+Prediction Probability: 0.1900
+---
